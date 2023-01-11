@@ -6,12 +6,12 @@ public class Question2 {
 
 	public static void main(String[] args) {
 
-	    String WORD = "Madam", REVERSEWORD = "";
+	    String WORD = "MADAM", REVERSEWORD = "";
 	    
 	    int strLength = WORD.length();
 
 	    for (int i = (strLength - 1); i >=0; --i) {
-	    	//REVERSEWORD = REVERSEWORD + WORD.charAt(i);
+	    
 	    	REVERSEWORD = REVERSEWORD + WORD.charAt(i);
 	    }
 
