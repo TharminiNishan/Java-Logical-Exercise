@@ -15,7 +15,7 @@ public class Question8 {
           
         for(int i = 0; i < numberOfTimesToBeRotated; i++){  
             int j, storingLast;  
-     
+
             storingLast = arr[arr.length-1];  
           
             for(j = arr.length-1; j > 0; j--){   
@@ -25,8 +25,6 @@ public class Question8 {
         }  
       
         System.out.println();  
-          
-        
         System.out.println("Array after rotation: ");  
         for(int i = 0; i< arr.length; i++){  
             System.out.print(arr[i] + " ");  
