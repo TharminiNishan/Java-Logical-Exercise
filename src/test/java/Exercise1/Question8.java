@@ -8,7 +8,7 @@ public class Question8 {
            
         System.out.println("Array before rotation: ");  
         for (int i = 0; i < arr.length; i++) {   
-            System.out.print(arr[i] + ", ");   
+            System.out.print(arr[i] + " ");   
         }    
           
         for(int i = 0; i < numberOfTimesToBeRotated; i++){  
