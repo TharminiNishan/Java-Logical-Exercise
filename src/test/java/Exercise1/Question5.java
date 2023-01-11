@@ -10,7 +10,7 @@ public class Question5 {
 		 String str1= "race";
 		 String str2= "care";
 	        
-	 
+	
 	        char[] array1 = str1.toCharArray();
 	        char[] array2 = str2.toCharArray();
 	 

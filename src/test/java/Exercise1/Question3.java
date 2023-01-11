@@ -11,7 +11,7 @@ public class Question3 {
 			
 			sum=sum+a[i];
 		}
-		
+	
         System.out.println(sum);
 	}
 

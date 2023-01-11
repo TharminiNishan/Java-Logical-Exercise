@@ -5,16 +5,14 @@ public class Question7 {
 	public static void main(String[] args) {
 		int[] arr = {1,2,3,4};
         System.out.println("Array before Swap :");
-        for (int i=0;i<arr.length;i++) {
-            System.out.println(i);
+        for (int i=0; i<arr.length ; i++) {
+            System.out.println(arr[i]);
         }
-        int STORE = arr[1];
-        arr[1] = arr[2];
-        arr[2] =  STORE;
-        System.out.println( "Array after Swap ;");
-        for (int element : arr) {
-            System.out.println(element);
+        System.out.println("Array after Swap :");
+        for (int i=arr.length-1; i>=0; i--) {
+        	System.out.println(arr[i]);
+        }
 
         }}
 
-}
+

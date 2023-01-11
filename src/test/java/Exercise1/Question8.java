@@ -1,9 +1,11 @@
 package Exercise1;
+/*8.Write a logic to rotate an array in cyclic order. For example, if we have input numbers 2,3,7,6,4 into an
+array. Your program should rotate this as 4,2,3,7,6*/
 
 public class Question8 {
 
 	public static void main(String[] args) {
-        int [] arr = new int [] {1, 2, 3, 4, 5};    
+        int [] arr = new int [] {1, 2, 3, 4, 5};   
         int numberOfTimesToBeRotated = 1;  
            
         System.out.println("Array before rotation: ");  

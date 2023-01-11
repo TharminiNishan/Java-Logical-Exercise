@@ -20,7 +20,7 @@ public class Question1 {
 			 sum=sum + a[i];
 		}
 		avg =sum/a.length;
-		double sqrtDifference = avg-i;
+		//double sqrtDifference = avg-i;
 		
 		
 		System.out.println("Sum :");
