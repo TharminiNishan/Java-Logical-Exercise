@@ -5,8 +5,22 @@ package Exercise1;
 public class Question2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+	    String WORD = "Madam", REVERSEWORD = "";
+	    
+	    int strLength = WORD.length();
+
+	    for (int i = (strLength - 1); i >=0; --i) {
+	    	//REVERSEWORD = REVERSEWORD + WORD.charAt(i);
+	    	REVERSEWORD = REVERSEWORD + WORD.charAt(i);
+	    }
+
+	    if (WORD.toLowerCase().equals(REVERSEWORD.toLowerCase())) {
+	      System.out.println(WORD + " is a Palindrome.");
+	    }
+	    else {
+	      System.out.println(WORD + " is not a Palindrome.");
 
 	}
-
+	}
 }
