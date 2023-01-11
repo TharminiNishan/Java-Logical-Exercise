@@ -3,17 +3,16 @@ package Exercise1;
 public class Question7 {
 
 	public static void main(String[] args) {
-		String[] arr = {"First", "Second", "Third", "Fourth"};
-        System.out.println("Array before Swap" + "\n");
-        for (String element : arr) {
-            System.out.println(element);
+		int[] arr = {1,2,3,4};
+        System.out.println("Array before Swap :");
+        for (int i=0;i<arr.length;i++) {
+            System.out.println(i);
         }
-        //Simple Swapping logic
-        String temp = arr[1];
+        int STORE = arr[1];
         arr[1] = arr[2];
-        arr[2] = temp;
-        System.out.println("\n" + "Array after Swap" + "\n");
-        for (String element : arr) {
+        arr[2] =  STORE;
+        System.out.println( "Array after Swap ;");
+        for (int element : arr) {
             System.out.println(element);
 
         }}
